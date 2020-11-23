@@ -1,0 +1,3 @@
+﻿Reenvío el trabajo puesto que había un error de mayúscula. Este no me cogía de forma correcta la base de datos en los diferentes sistemas operativos.
+
+Mi intención sobre la práctica final es recoger en una base de datos un registro y seguimiento de los coches interesados. Estos tendrían un seguimiento de datos del motor, caballos y tipo de combustible. Los coches estarían agrupados por marcas y en cada marca saldría el modelo con sus correspondientes datos, los cuales se pueden modificar y editar. A demás podremos seleccionar los favoritos entre los modelos para así guardar de forma visual los más llamativos.
