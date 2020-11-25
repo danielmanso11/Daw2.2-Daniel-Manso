@@ -1,0 +1,34 @@
+DEBERES "YA HECHOS" AMBOS GRUPOS:
+
+Que el listado de Persona incluya una columna para apellidos.
+
+En el listado, en caso de estrella=true, que aparezca una img a continuación del nombre, en esa misma celda, o nada en caso de false.
+
+Que la ficha de persona permita editar y guardar esas columnas. Investigad cómo meter un checkbox en un form.
+
+Meter un link en el listado de personas para alternar entre ver todas o ver solo las que tengan estrella.
+
+Que al visualizar una categoría salga abajo un listado básico (solo nombre y apellidos, sin tabla, en un <ul>) de las personas que pertenecen a esa categoría.
+
+Que funcione el alternar estrella en el listado de personas. Es decir, que si pulso en una estrella veo que se recarga el listado y la persona tiene la estrella cambiada (de sí a no, o de no a sí).
+Esto requiere una redirección.
+Si el listado estaba filtrado para solo estrellas, al volver se me cambia a ver todos. Intentar conseguir que permanezca el modo de filtrado que tuviera.
+
+
+
+
+NUEVOS DEBERES GRUPO .1 (para lunes):
+
+Incoroporar temas en la agenda, utilizando la $_SESSION como soporte para recordar qué tema tenemos puesto.
+Link en la parte superior para cambiar de tema.
+
+PHP
+    session_start();
+    if (!isset($_S["tema"]) & !isset($_R["tema"]))
+
+        --> $_S["tema"] = por defecto
+    else if (isset($_R["tema"]))
+
+        --> $_S["tema"] = $_R["tema"]
+luego
+    ya está en $_S["tema"]
